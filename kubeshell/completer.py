@@ -19,7 +19,6 @@ class KubectlCompleter(Completer):
         self.inline_help = True
         self.namespace = ""
         self.kube_client = KubernetesClient()
-
         try:
             DATA_DIR = os.path.dirname(os.path.realpath(__file__))
             DATA_PATH = os.path.join(DATA_DIR, 'data/cli.json')
@@ -41,6 +40,7 @@ class KubectlCompleter(Completer):
         try:
             tokens = shlex.split(cmdline)
             _, _, suggestions = self.parser.parse_tokens(tokens)
+            # fuzzyfinder 
             valid_keys = fuzzyfinder(word_before_cursor, suggestions.keys())
             for key in valid_keys:
                 yield Completion(key, -len(word_before_cursor), display=key, display_meta=suggestions[key])

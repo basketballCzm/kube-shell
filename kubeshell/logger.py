@@ -26,7 +26,7 @@ loggingConf = {
         },
         "file": {
             "class": "logging.handlers.RotatingFileHandler",
-            "level": "INFO",
+            "level": "DEBUG",
             "formatter": "default",
             "filename": logfile,
             "backupCount": 3,
@@ -34,8 +34,8 @@ loggingConf = {
         }
     },
     "loggers": {
-        "": {
-            "level": "ERROR",
+        "__main__": {
+            "level": "DEBUG",
             "handlers": ["file"],
         },
         "urllib3": {

@@ -155,7 +155,7 @@ class Kubeshell(object):
             completer.set_namespace(self.namespace)
 
             try:
-                user_input = prompt('kube-shell> ',
+                user_input = prompt('hw_shell-shell> ',
                             history=self.history,
                             auto_suggest=AutoSuggestFromHistory(),
                             style=StyleFactory("vim").style,

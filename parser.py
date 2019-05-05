@@ -223,5 +223,5 @@ class Parser(object):
 
 if __name__ == '__main__':
     parser = Parser('E:\kube-shell\kubeshell\data\cli.json')
-    p, _, s = parser.treewalk(parser.ast, parsed=list(), unparsed=['--', '--tcp 900:8080', 'nodeport', 'service', 'create', 'msgsend'])
+    p, _, s = parser.treewalk(parser.ast, parsed=list(), unparsed=['registerUser', '--pid=9876', 'msgsend'])
     print(p, s)

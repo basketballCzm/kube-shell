@@ -1,0 +1,210 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ApiException	../kubeshell\client.py	/^from kubernetes.client.api_client import ApiException$/;"	kind:namespace	line:4
+AutoSuggestFromHistory	../kubeshell\kubeshell.py	/^from prompt_toolkit.auto_suggest import AutoSuggestFromHistory$/;"	kind:namespace	line:5
+ClassNotFound	../kubeshell\style.py	/^from pygments.util import ClassNotFound$/;"	kind:namespace	line:15
+CliTest	../kubeshell\tests\test_cli.py	/^class CliTest(unittest.TestCase):$/;"	kind:class	line:7
+CommandTree	../kubeshell\parser.py	/^class CommandTree(object):$/;"	kind:class	line:19
+Completer	../kubeshell\completer.py	/^from prompt_toolkit.completion import Completer, Completion$/;"	kind:namespace	line:3
+Completion	../kubeshell\completer.py	/^from prompt_toolkit.completion import Completer, Completion$/;"	kind:namespace	line:3
+ConnectTimeoutError	../kubeshell\client.py	/^from urllib3.exceptions import NewConnectionError, ConnectTimeoutError, MaxRetryError$/;"	kind:namespace	line:2
+FileHistory	../kubeshell\kubeshell.py	/^from prompt_toolkit.history import FileHistory$/;"	kind:namespace	line:4
+Generic	../kubeshell\lexer.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:4
+Generic	../kubeshell\toolbar.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:3
+Keys	../kubeshell\kubeshell.py	/^from prompt_toolkit.keys import Keys$/;"	kind:namespace	line:7
+Keyword	../kubeshell\lexer.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:4
+Keyword	../kubeshell\toolbar.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:3
+KubeConfig	../kubeshell\kubeshell.py	/^class KubeConfig(object):$/;"	kind:class	line:29
+KubectlCompleter	../kubeshell\completer.py	/^class KubectlCompleter(Completer):$/;"	kind:class	line:16
+KubectlCompleter	../kubeshell\kubeshell.py	/^from kubeshell.completer import KubectlCompleter$/;"	kind:namespace	line:10
+KubectlCompleter	../kubeshell\lexer.py	/^from kubeshell.completer import KubectlCompleter$/;"	kind:namespace	line:6
+KubectlLexer	../kubeshell\kubeshell.py	/^from kubeshell.lexer import KubectlLexer$/;"	kind:namespace	line:11
+KubectlLexer	../kubeshell\lexer.py	/^class KubectlLexer(RegexLexer):$/;"	kind:class	line:8
+KubernetesClient	../kubeshell\client.py	/^class KubernetesClient(object):$/;"	kind:class	line:17
+KubernetesClient	../kubeshell\completer.py	/^from kubeshell.client import KubernetesClient$/;"	kind:namespace	line:12
+KubernetesClient	../kubeshell\kubeshell.py	/^from kubeshell.client import KubernetesClient, kubeconfig_filepath$/;"	kind:namespace	line:13
+KubernetesClient	../kubeshell\parser.py	/^from kubeshell.client import KubernetesClient$/;"	kind:namespace	line:8
+Kubeshell	../kubeshell\kubeshell.py	/^class Kubeshell(object):$/;"	kind:class	line:89
+Kubeshell	../kubeshell\main.py	/^from kubeshell.kubeshell import Kubeshell$/;"	kind:namespace	line:6
+Literal	../kubeshell\lexer.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:4
+Literal	../kubeshell\toolbar.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:3
+MaxRetryError	../kubeshell\client.py	/^from urllib3.exceptions import NewConnectionError, ConnectTimeoutError, MaxRetryError$/;"	kind:namespace	line:2
+Name	../kubeshell\lexer.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:4
+Name	../kubeshell\toolbar.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:3
+NewConnectionError	../kubeshell\client.py	/^from urllib3.exceptions import NewConnectionError, ConnectTimeoutError, MaxRetryError$/;"	kind:namespace	line:2
+Operator	../kubeshell\lexer.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:4
+Operator	../kubeshell\toolbar.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:3
+Option	../kubeshell\parser.py	/^class Option(object):$/;"	kind:class	line:11
+Parser	../kubeshell\completer.py	/^from kubeshell.parser import Parser$/;"	kind:namespace	line:11
+Parser	../kubeshell\parser.py	/^class Parser(object):$/;"	kind:class	line:32
+RegexLexer	../kubeshell\lexer.py	/^from pygments.lexer import RegexLexer$/;"	kind:namespace	line:2
+StyleFactory	../kubeshell\kubeshell.py	/^from kubeshell.style import StyleFactory$/;"	kind:namespace	line:9
+StyleFactory	../kubeshell\style.py	/^class StyleFactory(object):$/;"	kind:class	line:20
+Text	../kubeshell\lexer.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:4
+Text	../kubeshell\toolbar.py	/^from pygments.token import Keyword, Name, Operator, Generic, Literal, Text$/;"	kind:namespace	line:3
+Token	../kubeshell\style.py	/^from pygments.token import Token$/;"	kind:namespace	line:14
+Token	../kubeshell\toolbar.py	/^from pygments.token import Token$/;"	kind:namespace	line:2
+Toolbar	../kubeshell\kubeshell.py	/^from kubeshell.toolbar import Toolbar$/;"	kind:namespace	line:12
+Toolbar	../kubeshell\toolbar.py	/^class Toolbar(object):$/;"	kind:class	line:5
+_	../kubeshell\kubeshell.py	/^    def _(event):$/;"	kind:member	line:102
+_	../kubeshell\kubeshell.py	/^    def _(event):$/;"	kind:member	line:110
+_	../kubeshell\kubeshell.py	/^    def _(event):$/;"	kind:member	line:118
+_	../kubeshell\kubeshell.py	/^    def _(event):$/;"	kind:member	line:124
+__init__	../kubeshell\client.py	/^    def __init__(self):$/;"	kind:member	line:19
+__init__	../kubeshell\completer.py	/^    def __init__(self):$/;"	kind:member	line:18
+__init__	../kubeshell\kubeshell.py	/^    def __init__(self, refresh_resources=True):$/;"	kind:member	line:94
+__init__	../kubeshell\parser.py	/^    def __init__(self, apiFile):$/;"	kind:member	line:35
+__init__	../kubeshell\parser.py	/^    def __init__(self, name, helptext):$/;"	kind:member	line:14
+__init__	../kubeshell\parser.py	/^    def __init__(self, node=None, helptext=None, children=None, localFlags=None):$/;"	kind:member	line:22
+__init__	../kubeshell\style.py	/^    def __init__(self, style_name):$/;"	kind:member	line:27
+__init__	../kubeshell\toolbar.py	/^    def __init__(self, get_cluster_name, get_namespace, get_user, get_inline_help):$/;"	kind:member	line:13
+__init__.py	../kubeshell\__init__.py	1;"	kind:file	line:1
+__str__	../kubeshell\parser.py	/^    def __str__(self):$/;"	kind:member	line:28
+__version__	../kubeshell\__init__.py	/^__version__ = '0.0.23'$/;"	kind:variable	line:1
+__version__	../setup.py	/^from kubeshell import __version__$/;"	kind:namespace	line:1
+_call_api_client	../kubeshell\client.py	/^    def _call_api_client(self, resource):$/;"	kind:member	line:52
+_create_toolbar_handler	../kubeshell\toolbar.py	/^    def _create_toolbar_handler(self, get_cluster_name, get_namespace, get_user, get_inline_help):$/;"	kind:member	line:16
+absolute_import	../kubeshell\client.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+absolute_import	../kubeshell\completer.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+absolute_import	../kubeshell\kubeshell.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:1
+absolute_import	../kubeshell\lexer.py	/^from __future__ import print_function, absolute_import$/;"	kind:namespace	line:1
+absolute_import	../kubeshell\main.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:5
+absolute_import	../kubeshell\parser.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+absolute_import	../kubeshell\style.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:13
+absolute_import	../kubeshell\toolbar.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:1
+author	../setup.py	/^    author='Cloudnative Labs',$/;"	kind:variable	line:29
+build	../kubeshell\parser.py	/^    def build(self, root, schema):$/;"	kind:member	line:45
+check_output	../kubeshell\completer.py	/^from subprocess import check_output$/;"	kind:namespace	line:2
+classifiers	../setup.py	/^    classifiers=($/;"	kind:variable	line:42
+cli	../kubeshell\main.py	/^def cli():$/;"	kind:function	line:12
+click	../kubeshell\kubeshell.py	/^import click$/;"	kind:namespace	line:16
+client	../kubeshell\client.py	/^from kubernetes import client, config$/;"	kind:namespace	line:3
+client	../kubeshell\kubeshell.py	/^client = KubernetesClient()$/;"	kind:variable	line:26
+client.py	../kubeshell\client.py	1;"	kind:file	line:1
+completer	../kubeshell\kubeshell.py	/^completer = KubectlCompleter()$/;"	kind:variable	line:25
+completer	../kubeshell\lexer.py	/^    completer = KubectlCompleter()$/;"	kind:variable	line:12
+completer.py	../kubeshell\completer.py	1;"	kind:file	line:1
+config	../kubeshell\client.py	/^from kubernetes import client, config$/;"	kind:namespace	line:3
+config	../kubeshell\logger.py	/^import logging.config$/;"	kind:namespace	line:5
+current_context_index	../kubeshell\kubeshell.py	/^    current_context_index = 0$/;"	kind:variable	line:33
+current_context_name	../kubeshell\kubeshell.py	/^    current_context_name = ""$/;"	kind:variable	line:34
+default_style_extensions	../kubeshell\style.py	/^from prompt_toolkit.styles import default_style_extensions, style_from_dict$/;"	kind:namespace	line:17
+description	../setup.py	/^    description='Kubernetes shell: An integrated shell for working with the Kubernetes CLI',$/;"	kind:variable	line:28
+entry_points	../setup.py	/^    entry_points={$/;"	kind:variable	line:35
+evalOptions	../kubeshell\parser.py	/^    def evalOptions(self, root, parsed, unparsed):$/;"	kind:member	line:136
+find_packages	../setup.py	/^from setuptools import setup, find_packages$/;"	kind:namespace	line:2
+fuzzyfinder	../kubeshell\completer.py	/^from fuzzyfinder import fuzzyfinder$/;"	kind:namespace	line:4
+get_cluster_name	../kubeshell\kubeshell.py	/^    def get_cluster_name(self):$/;"	kind:member	line:127
+get_completions	../kubeshell\completer.py	/^    def get_completions(self, document, complete_event, smart_completion=None):$/;"	kind:member	line:38
+get_inline_help	../kubeshell\kubeshell.py	/^    def get_inline_help(self):$/;"	kind:member	line:136
+get_namespace	../kubeshell\kubeshell.py	/^    def get_namespace(self):$/;"	kind:member	line:130
+get_resource	../kubeshell\client.py	/^    def get_resource(self, resource, namespace="all"):$/;"	kind:member	line:35
+get_style_by_name	../kubeshell\style.py	/^from pygments.styles import get_style_by_name$/;"	kind:namespace	line:16
+get_title	../kubeshell\kubeshell.py	/^        def get_title():$/;"	kind:function	line:141
+get_toolbar_items	../kubeshell\toolbar.py	/^        def get_toolbar_items(_):$/;"	kind:function	line:17
+get_user	../kubeshell\kubeshell.py	/^    def get_user(self):$/;"	kind:member	line:133
+inline_help	../kubeshell\kubeshell.py	/^inline_help = True$/;"	kind:variable	line:23
+install_requires	../setup.py	/^    install_requires=requires,$/;"	kind:variable	line:34
+json	../kubeshell\completer.py	/^import json$/;"	kind:namespace	line:7
+json	../kubeshell\parser.py	/^import json$/;"	kind:namespace	line:2
+keywords	../setup.py	/^    keywords=('kubernetes', 'autocomplete', 'shell',),$/;"	kind:variable	line:41
+kubeconfig_filepath	../kubeshell\client.py	/^kubeconfig_filepath = os.getenv("KUBECONFIG") or "~\/.kube\/config"$/;"	kind:variable	line:14
+kubeconfig_filepath	../kubeshell\kubeshell.py	/^from kubeshell.client import KubernetesClient, kubeconfig_filepath$/;"	kind:namespace	line:13
+kubeshell.py	../kubeshell\kubeshell.py	1;"	kind:file	line:1
+lexer.py	../kubeshell\lexer.py	1;"	kind:file	line:1
+license	../setup.py	/^    license="Apache License 2.0",$/;"	kind:variable	line:40
+load_key_bindings_for_prompt	../kubeshell\kubeshell.py	/^from prompt_toolkit.key_binding.defaults import load_key_bindings_for_prompt$/;"	kind:namespace	line:6
+logfile	../kubeshell\logger.py	/^logfile = os.path.expanduser("~\/.kube\/shell\/error.log")$/;"	kind:variable	line:14
+logger	../kubeshell\__init__.py	/^from . import logger$/;"	kind:namespace	line:2
+logger	../kubeshell\completer.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:13
+logger	../kubeshell\kubeshell.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:21
+logger	../kubeshell\main.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:9
+logger	../kubeshell\parser.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:6
+logger.py	../kubeshell\logger.py	1;"	kind:file	line:1
+logging	../kubeshell\client.py	/^import logging$/;"	kind:namespace	line:7
+logging	../kubeshell\completer.py	/^import logging$/;"	kind:namespace	line:5
+logging	../kubeshell\kubeshell.py	/^import logging$/;"	kind:namespace	line:20
+logging	../kubeshell\logger.py	/^import logging$/;"	kind:namespace	line:3
+logging	../kubeshell\logger.py	/^import logging.config$/;"	kind:namespace	line:5
+logging	../kubeshell\main.py	/^import logging$/;"	kind:namespace	line:8
+logging	../kubeshell\parser.py	/^import logging$/;"	kind:namespace	line:5
+loggingConf	../kubeshell\logger.py	/^loggingConf = {$/;"	kind:variable	line:15
+main.py	../kubeshell\main.py	1;"	kind:file	line:1
+name	../setup.py	/^    name='kube-shell',$/;"	kind:variable	line:26
+namespace	../kubeshell\kubeshell.py	/^    namespace = "default"$/;"	kind:variable	line:32
+namespace	../kubeshell\kubeshell.py	/^    namespace = "default"$/;"	kind:variable	line:92
+os	../kubeshell\client.py	/^import os$/;"	kind:namespace	line:6
+os	../kubeshell\completer.py	/^import os$/;"	kind:namespace	line:8
+os	../kubeshell\completer.py	/^import os.path$/;"	kind:namespace	line:9
+os	../kubeshell\kubeshell.py	/^import os$/;"	kind:namespace	line:15
+os	../kubeshell\logger.py	/^import os$/;"	kind:namespace	line:1
+os	../kubeshell\parser.py	/^import os$/;"	kind:namespace	line:3
+package_data	../setup.py	/^    package_data={'kubeshell': ['data\/cli.json']},$/;"	kind:variable	line:32
+packages	../setup.py	/^    packages=find_packages(),$/;"	kind:variable	line:31
+parse_kubeconfig	../kubeshell\kubeshell.py	/^    def parse_kubeconfig():$/;"	kind:member	line:37
+parse_tokens	../kubeshell\parser.py	/^    def parse_tokens(self, tokens):$/;"	kind:member	line:69
+parser	../kubeshell\parser.py	/^    parser = Parser('\/Users\/tsp\/workspace\/py\/kube-shell\/kubeshell\/data\/cli.json')$/;"	kind:variable	line:168
+parser.py	../kubeshell\parser.py	1;"	kind:file	line:1
+path	../kubeshell\completer.py	/^import os.path$/;"	kind:namespace	line:9
+peekForOption	../kubeshell\parser.py	/^    def peekForOption(self, unparsed):$/;"	kind:member	line:130
+pexpect	../kubeshell\tests\test_cli.py	/^import pexpect$/;"	kind:namespace	line:4
+pip	../kubeshell\tests\test_cli.py	/^import pip$/;"	kind:namespace	line:3
+prefix	../kubeshell\lexer.py	/^                prefix=r'\\b',$/;"	kind:variable	line:18
+print_function	../kubeshell\client.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+print_function	../kubeshell\completer.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+print_function	../kubeshell\kubeshell.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:1
+print_function	../kubeshell\lexer.py	/^from __future__ import print_function, absolute_import$/;"	kind:namespace	line:1
+print_function	../kubeshell\main.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:5
+print_function	../kubeshell\parser.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+print_function	../kubeshell\style.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:13
+print_function	../kubeshell\toolbar.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:1
+print_tree	../kubeshell\parser.py	/^    def print_tree(self, root, indent=0):$/;"	kind:member	line:63
+prompt	../kubeshell\kubeshell.py	/^from prompt_toolkit import prompt$/;"	kind:namespace	line:3
+registry	../kubeshell\kubeshell.py	/^registry = load_key_bindings_for_prompt()$/;"	kind:variable	line:24
+requires	../setup.py	/^requires = [$/;"	kind:variable	line:17
+run_cli	../kubeshell\kubeshell.py	/^    def run_cli(self):$/;"	kind:member	line:139
+set_inline_help	../kubeshell\completer.py	/^    def set_inline_help(self, val):$/;"	kind:member	line:32
+set_namespace	../kubeshell\completer.py	/^    def set_namespace(self, namespace):$/;"	kind:member	line:35
+setup	../setup.py	/^from setuptools import setup, find_packages$/;"	kind:namespace	line:2
+setup.py	../setup.py	1;"	kind:file	line:1
+shlex	../kubeshell\completer.py	/^import shlex$/;"	kind:namespace	line:6
+step_run_cli	../kubeshell\tests\test_cli.py	/^    def step_run_cli(self):$/;"	kind:member	line:14
+step_see_prompt	../kubeshell\tests\test_cli.py	/^    def step_see_prompt(self):$/;"	kind:member	line:17
+style.py	../kubeshell\style.py	1;"	kind:file	line:1
+style_factory	../kubeshell\style.py	/^    def style_factory(self, style_name):$/;"	kind:member	line:30
+style_from_dict	../kubeshell\style.py	/^from prompt_toolkit.styles import default_style_extensions, style_from_dict$/;"	kind:namespace	line:17
+subprocess	../kubeshell\kubeshell.py	/^import subprocess$/;"	kind:namespace	line:18
+suffix	../kubeshell\lexer.py	/^                suffix=r'\\b'),$/;"	kind:variable	line:19
+switch_to_next_cluster	../kubeshell\kubeshell.py	/^    def switch_to_next_cluster():$/;"	kind:member	line:61
+switch_to_next_namespace	../kubeshell\kubeshell.py	/^    def switch_to_next_namespace(current_namespace):$/;"	kind:member	line:78
+sys	../kubeshell\kubeshell.py	/^import sys$/;"	kind:namespace	line:17
+sys	../kubeshell\logger.py	/^import sys$/;"	kind:namespace	line:2
+sys	../setup.py	/^import sys$/;"	kind:namespace	line:4
+test_cli.py	../kubeshell\tests\test_cli.py	1;"	kind:file	line:1
+test_run_cli	../kubeshell\tests\test_cli.py	/^    def test_run_cli(self):$/;"	kind:member	line:9
+tokens	../kubeshell\lexer.py	/^    tokens = {$/;"	kind:variable	line:14
+toolbar.py	../kubeshell\toolbar.py	1;"	kind:file	line:1
+traceback	../kubeshell\logger.py	/^import traceback$/;"	kind:namespace	line:4
+treewalk	../kubeshell\parser.py	/^    def treewalk(self, root, parsed, unparsed):$/;"	kind:member	line:92
+ulogger	../kubeshell\client.py	/^ulogger = logging.getLogger("urllib3")$/;"	kind:variable	line:11
+unicode_literals	../kubeshell\client.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+unicode_literals	../kubeshell\completer.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+unicode_literals	../kubeshell\kubeshell.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:1
+unicode_literals	../kubeshell\main.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:5
+unicode_literals	../kubeshell\parser.py	/^from __future__ import absolute_import, unicode_literals, print_function$/;"	kind:namespace	line:1
+unicode_literals	../kubeshell\style.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:13
+unicode_literals	../kubeshell\tests\test_cli.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:1
+unicode_literals	../kubeshell\toolbar.py	/^from __future__ import print_function, absolute_import, unicode_literals$/;"	kind:namespace	line:1
+unittest	../kubeshell\tests\test_cli.py	/^import unittest$/;"	kind:namespace	line:2
+unittest	../kubeshell\tests\test_cli.py	/^import unittest$/;"	kind:namespace	line:5
+url	../setup.py	/^    url='https:\/\/github.com\/cloudnativelabs\/kube-shell',$/;"	kind:variable	line:30
+urllib3	../kubeshell\client.py	/^import urllib3$/;"	kind:namespace	line:8
+version	../setup.py	/^    version=__version__,$/;"	kind:variable	line:27
+version	../setup.py	/^version = sys.version_info$/;"	kind:variable	line:6
+words	../kubeshell\lexer.py	/^from pygments.lexer import words$/;"	kind:namespace	line:3
+yaml	../kubeshell\kubeshell.py	/^import yaml$/;"	kind:namespace	line:19
+zip_safe	../setup.py	/^    zip_safe=False,$/;"	kind:variable	line:33
